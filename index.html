@@ -16,35 +16,43 @@
 <script src="js/jquery.easing.js"></script>	
 <!-- //슬라이드용 --> 
 <style>
-	@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-    /* 공통 영역  */
-	body {
-		font-family: 'Nanum Gothic', '나눔 고딕', snas-serif;
-		font-size: 16px;
-        letter-spacing: -1px;
-        color: #444;
-        word-wrap: break-word;
-        line-height: 1;
-	}
-	 /* :가상 선택자 ,  :: 가상 요소  */
-	 a :link  {color: #444;}
-	 a:hover {color: #444;}
-	 a:visited {color: #444;}
-	 a{text-decoration: none;}
-    /* ;; 가상  요소  ,   ;가상  선택자   */
-    .clear::after {
-     content: '';
-     clear: both;
-    display: block;
+/*모바일 영역 시작  */
+
+/*해더 영역 */
+.on {
+  background: #31353d;
 }
-     .txt_right {
-    text-align: right !important;
-} 
-.mt20  {
-	margin-top:  20px  !important;
+header {
+	height: 90px;
+	text-align: center;
+	z-index: 200;
+	background:  rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:  100%;
 }
-.w100p  {
-	width: 100% !important;
+.box-inner  {
+	width: 100%;
+	margin: 0 auto;
+}
+/* 로고영역 */
+.header_area h1 {
+  float: none;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding: 3px 0 0;
+}
+.header_area h1 a {
+  display: inline-block;
+  width: 150px;
+  height: 80px;
+  background-size: 150px 40px !important;
+  background-position: center center !important;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: url(../img/main_logo.png) no-repeat;
 }
 </style>
 </head>
