@@ -31,6 +31,21 @@
 	 a:hover {color: #444;}
 	 a:visited {color: #444;}
 	 a{text-decoration: none;}
+    /* ;; 가상  요소  ,   ;가상  선택자   */
+    .clear::after {
+     content: '';
+     clear: both;
+    display: block;
+}
+     .txt_right {
+    text-align: right !important;
+} 
+.mt20  {
+	margin-top:  20px  !important;
+}
+.w100p  {
+	width: 100% !important;
+}
 </style>
 </head>
 <body>
