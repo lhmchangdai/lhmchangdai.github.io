@@ -52,7 +52,7 @@ header {
   background-position: center center !important;
   text-indent: -9999px;
   overflow: hidden;
-  background: url(../img/main_logo.png) no-repeat;
+  background: url(./img/main_logo.png) no-repeat;
 }
 /* //로고영역 */
 /* 상단메뉴영역 */
@@ -89,7 +89,7 @@ margin-bottom: 0px;
 	float: none;
 	width: 100%;
 	background: #31353d;
-	display: block;
+	display: none;
 }
 .closePop {
 	display: block;
@@ -103,7 +103,7 @@ width: 60px;
 height: 60px;
 text-indent: -9999px;
 overflow: hidden;
-background: url(../img/btn_closeMenu.png)  no-repeat;
+background: url(./img/btn_closeMenu.png)  no-repeat;
 background-size: 60px;
 }
 .util {padding: 20px;}
@@ -142,20 +142,31 @@ top: -2px;
 	padding: 0 0 0 65px;
 	height: 60px;
 	line-height: 60px;
-	background: url(../img/ico_gnb01.png) no-repeat 10px center;
+	background: url(./img/ico_gnb01.png) no-repeat 10px center;
 	background-size:  49px 56px;
 }
 .gnb_depth {display: none;}
 .gnb li + li a {
-  background-image: url(../img/ico_gnb02.png);
+  background-image: url(./img/ico_gnb02.png);
 }
 .gnb li + li + li a {
-  background-image: url(../img/ico_gnb03.png);
+  background-image: url(./img/ico_gnb03.png);
 }
 .gnb li + li + li + li a {
-  background-image: url(../img/ico_gnb04.png);
+  background-image: url(./img/ico_gnb04.png);
+}
+.gnb li:nth-child(2n + 1) {
+  border-right: 1px solid #83868b;
 }
 </style>
+<script>
+	 $(document).ready(function( )  {
+	$(".openMOgnb").click(function() {
+	alert();
+	});
+	 } ) ;
+	
+</script>
 </head>
 <body>
 
