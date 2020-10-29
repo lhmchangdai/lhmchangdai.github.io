@@ -6,11 +6,11 @@
 
 #### 20201028(수)
 -  z-index:  주),  0부터   시작   ,  화면에는 
-레이어라는 개념으로 처리(포토피아)
--CSS스타일 적용 하는 3가지 방법 
--인라인스타일:태그안쪽에 style 속성사용(아래)
--.style= padding10px;
--파일 안에 style 태그사용(아래)
+레이어라는 개념으로 처리(포토피아)<br>
+-CSS스타일 적용 하는 3가지 방법<br> 
+-인라인스타일:태그안쪽에 style 속성사용(아래)<br>
+-.style= padding10px;<br>
+-파일 안에 style 태그사용(아래)<br>
 -<style>내부스타일 주기 </style>
 - 외부 CSS파일 지정하기 (아래)
 -깃 허브  README.MD(마크다은 언어)
@@ -21,7 +21,7 @@
 - https://drive.google.com/file/d/1dC2RMqDqNeEFtr-r-dvcsKk0YwPjk0Xy/view?usp=sharing
 
 #### 20201022(목)
-
+-햄버거 메뉴; .openMOgnb -> gnb(global navigation)<br>
 - 소스내용 교육용으로 정리
 - 깃 사용시 토큰인증헤제: [윈도우 자격증명관리]에 personal access token 을 삭제 후 커밋
 - 강사블로그 http://blog.daum.net/web_design 에서 익스텐션으로 검색 vscode 사용법 참조.
