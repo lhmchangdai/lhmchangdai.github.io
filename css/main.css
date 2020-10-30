@@ -171,3 +171,169 @@ width: 100% !important;
   .gnb li:nth-child(2n + 1) {
 	border-right: 1px solid #83868b;
   }
+  #container, #footer,.hdd,.quick_area {
+	text-align: center;
+	}
+	#container {
+	  position: relative;
+	  width: 100%;
+	  padding-bottom: 30px;
+	}
+	/*pc용 슬라이드 영역은 숨김 처리 */
+	.main_rolling_pc {display: none;}
+	/*모바일 슬라이드 영역 */	
+	.main_rolling_mobile{display: block;}
+	.swiper-slide img{width: 100%;}
+	.swiper-pagination-bullet{
+		width: 5px; height: 5px;
+		margin: 0 3px  !important;
+		background: #fff;
+		opacity: 0.2;/*기본 투명도 20% */
+	}
+	.swiper-pagination-bullet-active{
+		opacity: 1;/*투명도 100% */
+	}
+	/* //모바일 슬라이드 영역 */
+	/*갤러리 최근  게시물 영역 */
+	.about_area h2 {
+	  padding: 27px 0 25px;
+	  font-size: 20px;
+	}
+	.about_area h2 b {
+	  display: block;
+	  padding-top: 10px;
+	}
+	.about_box {
+	  background: #fff;
+	}
+	.place_list li {
+	  float: none;
+	  width: 100%;
+	  margin: 0;
+	  box-sizing: border-box;
+	  padding: 0 20px;
+	  top: 0;
+	}
+	.place_list li img {
+		width: 100%;
+	}
+	.place_list li h3 {
+		font-weight: bold;
+		font-size: 18px;
+		padding-top: 25px;
+		color: #000;
+	}
+	.place_list p.txt {
+	  padding: 10px 50px 30px;
+	  line-height: 1.4;
+	  box-sizing: border-box;
+	  width: 100%;
+	  overflow: hidden;
+	  word-break: keep-all;
+	  color: #666;
+	}
+	.place_list li .view {
+	  padding-bottom: 10px;
+	  margin: 0 0 30px;
+	  display: inline-block;
+	  padding-top: 5px;
+	  border-top: 2px solid #333;
+	  color: #666;
+	}
+	/* 갤러리 최근 게시물 영역 */
+	
+	/* 공지사항 최근 게시물  영역 */
+	.app_line {display: none;}
+	.appbbs_area{
+		padding: 0 20px ;
+		text-align: left;
+	}
+	.bbs_line {
+		float: none;
+		width: 100%;
+		padding:  20px 0;
+		border-top: 1px solid #d6d7d8;
+	}
+	.bbs_line h3  {
+		font-weight: bold;
+		font-size: 19px;
+	}
+	.bbs_line .notice_recent {padding-top: 10px;}
+	.bbs_line .notice_recent li {
+		padding:  8px 0 ;
+	}
+	/* //공지사항 최근 게시물 영역 */
+	
+	/* //본문컨테이너 영역 */
+	/* //모바일 영역 */
+	/* 푸터영역 */
+footer {
+	border-top: 1px solid #ccc;
+  }
+  .foot_area {
+	  box-sizing: border-box;
+	  padding: 0 20px 90px;
+	  position: relative;
+  }
+  .foot_list {
+	padding-top: 25px;
+  }
+  .foot_list li {
+	float: left;
+  }
+  .foot_list li:first-child::after {
+	content: '|';
+	display: inline-block;
+	padding: 0 10px;
+	font-size: 10px;
+	position: relative;
+	top: -2px;
+  }
+  .foot_list li a {
+	font-weight: bold;
+	font-size: 15px;
+  }
+  .foot_area h2 {
+	padding-top: 15px;
+	font-size: 14px;
+	color: #666;
+  }
+  .addr {
+	line-height: 1.3;
+	font-size: 14px;
+	color: #767676;
+	padding-top: 5px;
+  }
+  .br_line {display: block;}
+  .copy {
+	  padding: 3px 0 20px;
+	  font-size: 14px;
+	  color: #767676;
+  }
+  .snslink{
+  position: static;
+  width: 210px;
+  margin: 10px auto;	
+  }
+  .snslink li:first-child{
+   margin-left: 0px;	
+  }
+  .snslink li {
+	  margin-left: 30px;
+	  float: left;
+  }
+  .snslink li a {
+	display: block;
+	width: 50px;
+	height: 74px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url(../img/ico_blog_r.png) no-repeat;
+  }
+  .snslink li + li a {
+	background-image: url(../img/ico_facebook_r.png);
+  }
+  .snslink li + li + li a {
+	background-image: url(../img/ico_instargram_r.png);
+  }
+  /*// 푸터 영역 */
