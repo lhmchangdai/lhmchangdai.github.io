@@ -11,3 +11,7 @@ $(".closePop").click(function( ){
  } );	 
 
 } ) ;
+(document).ready(function( )  {
+	// 상단 으로 바로가기 버튼 클릭 
+	$(".to_top") .smoothscroll ( ) ;
+} );
