@@ -28,7 +28,7 @@
 - 비주얼스튜디오코드 익스텐션 파일 구글드라이브 다운로드(아래):
 - https://drive.google.com/file/d/1NkZ0qfr2P0tDsRKyP9qHQ3tPkafeKiPv/view?usp=sharing
 
-#### 20201019(월)
+#### 20201102(월)
 
 - 반응형사이트 화면설계서_교사용 구글ppt 다운받기(아래 구글링크):
 - https://drive.google.com/file/d/1GqBK_sKPFpfhTDd4whbLK3ZLXP1g3_Kw/view?usp=sharing

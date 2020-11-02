@@ -15,3 +15,11 @@ $(".closePop").click(function( ){
 	// 상단 으로 바로가기 버튼 클릭 
 	$(".to_top") .smoothscroll ( ) ;
 } );
+wwslidingAuto = setTimeout("play w('right')",  3000);
+
+
+var wwslidingAuto = setTimeout("play w('right')",  3000);
+//es5 버전용 
+var wwrollplayhide = setTimeout(function( ) {
+	$(".rollplay").css ("display", "none");
+},3000);
