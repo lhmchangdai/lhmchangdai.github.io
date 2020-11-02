@@ -1,12 +1,19 @@
-.css">
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title> 스프링 </title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/tablet.css">
+<link rel="stylesheet" href="css/pc.css">
+<link rel="stylesheet" href="css/board.css">
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/jquery.smooth-scroll.min.js"></script>
 <script src="js/main.js"></script>
-<!-- 슬라이드용 -->
-<link rel="stylesheet" href="css/swiper.min.css">
-<script src="js/rollmain.js"></script>
-<script src="js/jquery.easing.js"></script>	
-<!-- //슬라이드용 --> 
+
 <style>
 	
 </style>
@@ -79,119 +86,125 @@
 	
 	<!-- 메인콘텐츠영역 -->
 	<div id="container">
-		<!-- //PC슬라이드영역 -->
-    	<div class="main_rolling_pc">
-            <div class="visualRoll">
-            	<!-- 슬라이드이미지영역 -->
-                <ul class="viewImgList">
-                    <li class="imglist0">
-                        <div class="roll_content">
-                            <a href="javascript:;">
-                            <img src="img/maple-1079235_640.jpg" alt="OOOO OOOOO OOOO OOOOO, 스프링... OOOO OOOOO?"></a>
-                            <p class="roll_txtline">OOOO OOOOOOOOO OOOOOOOOO OOOOO</p>
-                        </div>
-                    </li>
-                    <li class="imglist1">
-                        <div class="roll_content">
-                            <a href="javascript:;">
-                            <img src="img/img_slidecontents02.png" alt="OOOO OOOOOOOOO OOOOO 스프링정보, 스프링... OOOO OOOOO?"></a>
-                            <p class="roll_txtline">OOOO OOOOOOOOO OOOOOOOOO OOOOO</p>
-                        </div>
-                    </li>
-                    <li class="imglist2">
-                        <div class="roll_content">
-                            <a href="javascript:;">
-                            <img src="img/img_slidecontents03.png" alt="OOOO OOOOO 믿을 수 있는 스프링정보, 스프링... OOOO OOOOO?"></a>
-                            <p class="roll_txtline">OOOO OOOOOOOOO OOOOOOOOO OOOOO</p>
-                        </div>
-                    </li>
-                </ul>
-                <!-- //슬라이드이미지영역 -->
-                <!-- 슬라이드버튼영역 -->
-                <div class="rollbtnArea">
-                    <ul class="rollingbtn">
-                        <li class="seq butt0"><a href="#butt"><img src="img/btn_rollbutt_on.png" alt="1번" /></a></li>
-                        <li class="seq butt1"><a href="#butt"><img src="img/btn_rollbutt_off.png" alt="2번" /></a></li>
-                        <li class="seq butt2"><a href="#butt"><img src="img/btn_rollbutt_off.png" alt="3번" /></a></li>
-                        <li class="rollstop"><a href="#" class="stop"><img src="img/btn_roll_stop.png" alt="멈춤" /></a></li>
-                        <li class="rollplay"><a href="#" class="play"><img src="img/btn_roll_play.png" alt="재생" /></a></li>
-                    </ul>
-                </div>
-                <!-- //슬라이드버튼영역 -->
-            </div>
-        </div>
-        <!-- //PC슬라이드영역 -->
-        
-        <!-- 모바일슬라이드영역 -->
-        <div class="main_rolling_mobile">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                	<!-- 슬라이드이미지영역 -->
-                    <div class="swiper-slide">
-                        <a href="javascript:;"><img src="img/mainslide_mob01.jpg" alt="OOOO OOOOO 믿을 수 있는 스프링정보, 스프링... OOOO OOOOO?" /></a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="javascript:;"><img src="img/mainslide_mob02.jpg" alt="OOOO OOOOO 믿을 수 있는 스프링정보, 스프링... OOOO OOOOO?" /></a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="javascript:;"><img src="img/mainslide_mob03.jpg" alt="OOOO OOOOO 믿을 수 있는 스프링정보, 스프링... OOOO OOOOO?" /></a>
-                    </div>
-                    <!-- //슬라이드이미지영역 -->
-                </div>						
-                <div class="swiper-pagination"></div>                
-            </div>
-        </div>
-        <!-- //모바일슬라이드영역 -->
-	
-		<!-- 갤러리최근게시물영역 -->
-		<div class="about_area">
-			<h2>갤러리 최근 게시물 <b>TOP 3</b></h2>
-			<div class="about_box">
-				<ul class="place_list box_inner clear">
-					<li><a href="#" onclick="$('.popup_base').css('height',$(document).height());$('.contact_pop').show();">
-							<img class="img_topplace" src="img/img_topplace01.jpg" alt="OOOO OOOOO" />
-							<h3>OOOO OOOOO</h3>
-							<p class="txt">OOOO OOOOOOOOO OOOOOOOOO OOOOOOOOO OOOOOOOOO OOOOOOOOO OOOOOOOOO OOOOO!</p>
-							<span class="view">VIEW</span></a>
-					</li>
-					<li><a href="#" onclick="$('.popup_base').css('height',$(document).height());$('.space_pop').show();">
-							<img class="img_topplace" src="img/img_topplace02.jpg" alt="OOOO OOOOO" />
-							<h3>OOOO OOOOO</h3>
-							<p class="txt">OOOO OOOOOOOOO OOOOOOOOO OOOOOOOOO OOOOOOOOO OOOOOOOOO OOOOOOOOO OOOOO.</p>
-							<span class="view">VIEW</span></a>
-					</li>
-					<li><a href="#" onclick="$('.popup_base').css('height',$(document).height());$('.program_pop').show();">
-							<img class="img_topplace" src="img/img_topplace03.jpg" alt="OOOO OOOOO" />
-							<h3>OOOO OOOOO</h3>
-							<p class="txt">OOOO OOOOOOOOO OOOOOOOOO OOOOOOOOO OOOOOOOOO OOOOOOOOO OOOOOOOOO OOOOO</p>
-							<span class="view">VIEW</span></a>
-					</li>
-				</ul>
-			</div>
+	<!-- 메인상단위치표시영역 -->
+	<div class="location_area customer">
+		<div class="box_inner">
+			<h2 class="tit_page">스프링 <span class="in">in</span> 자바</h2>
+			<p class="location">고객센터 <span class="path">/</span> 공지사항</p>
+			<ul class="page_menu clear">
+				<li><a href="#" class="on">공지사항</a></li>
+				<li><a href="#">문의하기</a></li>
+			</ul>
 		</div>
-		<!-- //갤러리최근게시물영역 -->
+	</div>	
+	<!-- //메인상단위치표시영역 -->
 
-		<!-- 카카오톡상담및최근공지사항영역 -->
-		<div class="appbbs_area">
-			<div class="appbbs_box box_inner clear">
-				<h2 class="hdd">상담과 최근게시물</h2>
-				<p class="app_line">
-					<a href="javascript:;">카카오톡 1:1 상담</a>
-					<a href="javascript:;">전화 상담 신청</a>
-				</p>
-				<div class="bbs_line">
-					<h3>NOTICE</h3>
-					<ul class="notice_recent">
-						<li><a href="javascript:;">OOOO OOOOO (스프링OOOO OOOOO)</a></li>
-						<li><a href="javascript:;">OOOO OOOOOOOOO OOOOO</a></li>
-						<li><a href="javascript:;">OOOO OOOOO/OOOO OOOOO</a></li>
-						<li><a href="javascript:;">OOOO OOOOO OPEN! (스프링정보, OOOO OOOOO)</a></li>
-						<li><a href="javascript:;">OOOO OOOOO 서비스 점검 안내</a></li>
-					</ul>
-				</div>
-			</div>
+	<!-- 메인본문영역 -->
+	<div class="bodytext_area box_inner">
+		<!-- 검색폼영역 -->
+		<form action="#" class="minisrch_form">
+			<fieldset>
+				<legend>검색</legend>
+				<input type="text" class="tbox" title="검색어를 입력해주세요" placeholder="검색어를 입력해주세요">
+				<a href="javascript:;" class="btn_srch">검색</a>
+			</fieldset>
+		</form>
+		<!-- //검색폼영역 -->
+		
+		<!-- 게시물리스트영역 -->
+		<table class="bbsListTbl" summary="번호,제목,조회수,작성일 등을 제공하는 표">
+			<caption class="hdd">공지사항  목록</caption>
+			<thead>
+				<tr>
+					<th scope="col">번호</th>
+					<th scope="col">제목</th>
+					<th scope="col">조회수</th>
+					<th scope="col">작성일</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td class="tit_notice"><a href="board_view.html">이번 여름 휴가 제주 갈까? 미션 투어 (스프링경비 50만원 지원)</a> </td>
+					<td>123</td>
+					<td>2018-08-01</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td class="tit_notice"><a href="board_view.html">박물관 미션 투어 응모 당첨자 발표</a> </td>
+					<td>123</td>
+					<td>2018-08-01</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td class="tit_notice"><a href="board_view.html">추석 연휴 티켓/투어 배송 및 직접 수령 안내</a> </td>
+					<td>123</td>
+					<td>2018-08-01</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td class="tit_notice"><a href="board_view.html">하롱베이 서비스 OPEN! (스프링정보, 가이드북, 가이드맵)</a> </td>
+					<td>123</td>
+					<td>2018-08-01</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td class="tit_notice"><a href="board_view.html">스프링 서비스 점검 안내 - 스프링에서 매월 실시하는 정기점검 안내</a> </td>
+					<td>123</td>
+					<td>2018-08-01</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td class="tit_notice"><a href="board_view.html">이번 여름 휴가 제주 갈까? 미션 투어 (스프링경비 50만원 지원)</a> </td>
+					<td>123</td>
+					<td>2018-08-01</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td class="tit_notice"><a href="board_view.html">박물관 미션 투어 응모 당첨자 발표</a> </td>
+					<td>123</td>
+					<td>2018-08-01</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td class="tit_notice"><a href="board_view.html">추석 연휴 티켓/투어 배송 및 직접 수령 안내</a> </td>
+					<td>123</td>
+					<td>2018-08-01</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td class="tit_notice"><a href="board_view.html">하롱베이 서비스 OPEN! (스프링정보, 가이드북, 가이드맵)</a> </td>
+					<td>123</td>
+					<td>2018-08-01</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td class="tit_notice"><a href="board_view.html">스프링 서비스 점검 안내</a> </td>
+					<td>123</td>
+					<td>2018-08-01</td>
+				</tr>
+			</tbody>
+		</table>
+		<!-- //게시물리스트영역 -->
+		
+		<!-- 페이징처리영역 -->
+		<div class="pagination">
+			<a href="javascript:;" class="firstpage  pbtn"><img src="img/btn_firstpage.png" alt="첫 페이지로 이동"></a>
+			<a href="javascript:;" class="prevpage  pbtn"><img src="img/btn_prevpage.png" alt="이전 페이지로 이동"></a>
+			<a href="javascript:;"><span class="pagenum currentpage">1</span></a>
+			<a href="javascript:;"><span class="pagenum">2</span></a>
+			<a href="javascript:;"><span class="pagenum">3</span></a>
+			<a href="javascript:;"><span class="pagenum">4</span></a>
+			<a href="javascript:;"><span class="pagenum">5</span></a>
+			<a href="javascript:;" class="nextpage  pbtn"><img src="img/btn_nextpage.png" alt="다음 페이지로 이동"></a>
+			<a href="javascript:;" class="lastpage  pbtn"><img src="img/btn_lastpage.png" alt="마지막 페이지로 이동"></a>
 		</div>
-		<!-- //카카오톡상담및최근공지사항영역 -->
+		<!-- //페이징처리영역 -->
+		<p class="btn_line">
+			<a href="board_write.html" class="btn_baseColor">등록</a>
+		</p>
+	</div>
+	<!-- //메인본문영역 -->
 	</div>
 	<!-- //메이콘텐츠영역 -->
 	
@@ -232,20 +245,7 @@
 </div>
 <!-- //하단퀵메뉴영역 -->
 
-<!-- 슬라이드스크립트영역 -->
-<script type="text/javascript" src="js/swiper.min.js"></script>
-<script type="text/javascript">
-   $(document).ready(function(){
-		var swiper = new Swiper('.swiper-container', {
-			loop: true,
-			autoplay:5500,
-		    autoplayDisableOnInteraction: false,
-			pagination: '.swiper-pagination',
-            paginationClickable: true
-		});
-	});
-</script>
-<!-- //슬라이드스크립트영역 -->
+
 
 
 </body>
