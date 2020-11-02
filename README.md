@@ -1,7 +1,7 @@
 ### 학습목표(아래)
 - 반응형 웹사이트 만들기
 - 파이어폭스 개발자도구의 스타일 탭사용
-- 기존 PC용 > 태블릿용 > 모바일용 CSS작업순서를 [모바일용 > 태블릿용 > PC용] 으로 변경작업
+- 기존 PC용 > 태블릿용 > 모바일용 CSS작업순서를 [모바일용 > 태블릿용 > PC용] 으로 변경작업<br>
 
 #### 20201102(월)
 -토큰: 네트워크로 전송되는 조각 데이터.
@@ -14,23 +14,23 @@
 -자바스크립트(제이쿼리) 디버그 방법(아래)
 -      i.개발자 도구 > 콘솔열고 > 화면실행
 -     ii.alert('디버그값출력');
--    iii.console.log('디버그값출력');
+-    iii.console.log('디버그값출력');<br>
 
-2000만원이상 프로젝트에서 진행순서
+2000만원이상 프로젝트에서 진행순서<br>
 
 -   i.클라이언트(공개입찰올림):
 -요구사항명세서(*RFP)
 -   ii.개발사(업체):위 RFP를 보고 제안서제출
 -  iii.클라이언트(낙찰): 업체선정.
--   iv.작업시작: 개발사작업시작.
+-   iv.작업시작: 개발사작업시작.<br>
 
-취업 IT개발회사기준: 법인(주식회사)중소기업
+취업 IT개발회사기준: 법인(주식회사)중소기업<br>
 
-(사원:10명내외, 연매출액:10억내외)
+(사원:10명내외, 연매출액:10억내외)<br>
 
 -개발팀(제안서작성)
 -디자인팀(제안서작성)
--기획팀(제안서제출)
+-기획팀(제안서제출)<br>
 
 #### 20201030(금)
 -background-size: cover 속성은 영역보다 이미지가 작을때 작동.
@@ -45,7 +45,7 @@
 -CRUD: Create(Insert-자료입력)
 -Read(Select-자료조회)
 -Update(자료수정)
--Delete(자료삭제)
+-Delete(자료삭제)<br>
 
 #### 20201029(목)
 -bbs(PC통신부터 게시판약자 bbs) board system.
@@ -63,7 +63,7 @@
 -웹접근성: 시각장애인들을 위한 코딩추가.
 -스크린리더 프로그램용 코딩: 예, text-indent: -9999px;
 -햄버거메뉴: .openMOgnb -> gnb(global navigation)    
-  글로벌 네비게이션(전체 메뉴) Ps. Page Navigation (페이징 링크 처리)
+  글로벌 네비게이션(전체 메뉴) Ps. Page Navigation (페이징 링크 처리)<br>
 
 #### 20201028(수)
 -z-index: 주), 0부터 시작 , 화면에는 레이어라는 개념으로 처리(포토피아)
@@ -78,14 +78,14 @@
 - 반응형사이트 화면설계서_학생용 구글ppt 다운받기(아래 구글링크):
 - https://drive.google.com/file/d/17jXgf7R2BawMt3K9eoxfnnO_8X9yClLZ/view?usp=sharing
 - 반응형사이트 기획서_학생용 구글xlsx 다운받기(아래 구글링크):
-- https://drive.google.com/file/d/1dC2RMqDqNeEFtr-r-dvcsKk0YwPjk0Xy/view?usp=sharing
+- https://drive.google.com/file/d/1dC2RMqDqNeEFtr-r-dvcsKk0YwPjk0Xy/view?usp=sharing<br>
 
 #### 20201022(목)
 - 소스내용 교육용으로 정리
 - 깃 사용시 토큰인증헤제: [윈도우 자격증명관리]에 personal access token 을 삭제 후 커밋
 - 강사블로그 http://blog.daum.net/web_design 에서 익스텐션으로 검색 vscode 사용법 참조.
 - 비주얼스튜디오코드 익스텐션 파일 구글드라이브 다운로드(아래):
-- https://drive.google.com/file/d/1NkZ0qfr2P0tDsRKyP9qHQ3tPkafeKiPv/view?usp=sharing
+- https://drive.google.com/file/d/1NkZ0qfr2P0tDsRKyP9qHQ3tPkafeKiPv/view?usp=sharing<br>
 
 #### 20201019(월)
 
