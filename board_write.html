@@ -15,51 +15,7 @@
 <script src="js/main.js"></script>
 
 <style>
-.appForm {
-	margin: 20px auto;
-	text-align: left;
-}
-.appForm legend {
-	font-size: 0px;
-}
-.pilsoo_item::before {
-	top: 1px;
-	content: '*';
-	display: inline-block;
-	position: absolute;
-	left: 5px;
-	width: 15px;
-	font-weight: bold;
-	font-size: 17px;
-	color: red;
-}
-.info_pilsoo {
-	position: relative;
-	padding-left: 20px;
-	padding-bottom:  10px;
-	border-bottom:  2px solid #000;
-	font-size: 15px;
-	color: red;
-}
-.app_list {
-	padding: 10px 0;
-	border-bottom: 1px solid #ccc;
-}
-.app_list li {
-	position: relative;
-	padding: 10px 0;
-	border-bottom: 1px solid #ccc;
-}
-.app_list li .tit_lbl {
-	float: none;
-	line-height: 30px;
-	position: relative;
-	box-sizing: border-box;
-	padding-left: 20px;
-	font-weight: bold;
-	font-size: 17px;
-	letter-spacing: -2px;
-}
+
 </style>
 <script>
 $(document).ready(function( ) {
@@ -149,7 +105,7 @@ $(document).ready(function( ) {
       		<!-- 메인본문영역 -->
 		<div class="bodytext_area box_inner">
 			<!-- 폼영역 -->
-			<form action="board_write.html" class="appForm">
+			<form method="POST" action="board_write.html" class="appForm">
 				<fieldset>
 					<legend>상담문의 입력 양식</legend>
 					<p class="info_pilsoo pilsoo_item">필수입력</p>
