@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="./js/jquery-1.11.3.min.js"></script>
+	<script>
+		$(document).ready(function( ) {
+           $("#addElement").click(function ( ){
+			$(document.body).css("background", "blue");
+			$("<div><p>제이쿼리</p></div>").appendTo("#addElement");
+			var count = $("div").length;
+			alert("div태그의 개수는"  +  count +  "개입니다.");
+			});
+		});
+		jQuery(function ( ) {
+
+		});
+		$( function( ){
+
+		});
+		//context 영역의  내용을 말합니다 .
+		//
+	</script>
+</head>
+<body>
+<button id="addElement">동적으로 톰 엘리먼트 추가 하기</button>	
+</body>
+</html>
