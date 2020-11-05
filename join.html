@@ -20,12 +20,20 @@
 <style>
 </style>
 <script>
-$(document).ready(function() {
-	$(".appForm").validate();
+$(document).ready(function ( ) {
+	$(".appForm").validate({
+        rules: {
+			password:"required" ,
+            password_chk:  { 
+				equalTo:"#password_lbl"
+			}		
+		}	
+	});
 	$.extend($.validator.messages, {
 		required: "필수 항목 입니다.",
 		email: "유효하지 않는 Email주소 입니다.",
-		digits: "숫자만  입력가능합니다."
+		digits: "숫자만  입력가능합니다.",
+		equalTo:"비밀번호가 일치 하지 않습니다."
 	});
 });
 </script>
