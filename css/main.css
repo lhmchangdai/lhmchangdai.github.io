@@ -177,9 +177,9 @@ header {
 	width: 100%;
 	padding-bottom: 30px;
 }
-/* PC용 슬라이드영역은 숨김처리 */
-.main_rolling_pc {display: none;}
-/* 모바일슬라이드영역 */
+/* 모바일 +PC공통슬라이드영역은 보이게 처리 */
+.main_rolling_pc {display: block;}
+/* 모바일슬라이드영역 숨김 처리  */
 .main_rolling_mobile {display:block;}
 .swiper-slide img {height: 300px; width: 100%;}
 .swiper-pagination-bullet {
@@ -191,7 +191,88 @@ header {
 .swiper-pagination-bullet-active {
 	opacity: 1 !important;/* 투명도 100% */
 }
-/* //모바일슬라이드영역 */
+/* //모바일슬라이드영역 숨김 처리  */
+  /* 슬라이드영역 */
+  .main_rolling_mobile {
+    display: none;
+  }
+  .main_rolling_pc {
+    display: block;
+  }
+  .visualRoll {
+    position: relative;
+    width: 100%;
+  }
+  .viewImgList {
+    position: relative;
+    width: 100%;
+  }
+  ul.viewImgList li {
+    text-align: center;
+    height: 550px;
+    line-height: 550px;
+    background-size: cover;
+    width: 100%;
+  }
+  .roll_content a img {
+    display: none;
+  }
+  li.imglist0 {
+    position: relative;
+    z-index: 50;
+    background: url(../img/slide-1.jpg) no-repeat;
+  }
+  li.imglist1 {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    background: url(../img/slide-2.jpg) no-repeat;
+  }
+  li.imglist2 {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    background: url(../img/slide-3.jpg) no-repeat;
+  }
+  .roll_content {
+    position: relative;
+  }
+  .roll_content .roll_txtline {
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+    width: 100%;
+    line-height: 1;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+  .rollbtnArea {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 25px;
+    z-index: 200;
+  }
+  .rollingbtn {
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .rollingbtn li.butt0 {
+    margin-left: 10px;
+  }
+  .rollingbtn li {
+    display: inline-block;
+    margin-left: 5px;
+  }
+  .rollingbtn li a {
+    vertical-align: top;
+  }
+  /* //슬라이드영역 */
 /* 겔러리최근게시물영역 */
 .about_area h2 {
 	font-size:20px;
