@@ -91,6 +91,16 @@
     position: inherit;
   }
   /* //컨테이너영역 */
+  /* 슬라이드 영역 */
+    ul.viewImgList li {
+      text-align: center;
+      height: 550px;
+      line-height: 550px;
+      background-size: cover;
+      width: 100%;
+    }
+  }
+/* //슬라이드 영역 */
   /* 겔러리 최근게시물 */
   .about_area h2 {
     padding: 55px 0 105px;
@@ -211,4 +221,4 @@
   /* //푸터영역 */
 
   /* //태블릿영역 */
-}
+
