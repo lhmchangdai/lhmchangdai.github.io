@@ -8,7 +8,7 @@
   }
   .header_area h1 {
     float: left;
-    padding: 10px 0 0;
+    padding: 15px 0 0;
     padding-left: 20px;
     width: auto;
     height: inherit;
@@ -16,9 +16,9 @@
   }
   .header_area h1 a {
     display: block;
-    width: 90px;
-    height: 90px;
-    background-size: 95px 80px !important;
+    width: 100px;
+    height: 80px;
+    background-size: 80px 80px !important;
   }
   .openMOgnb {
     display: none;
@@ -91,16 +91,13 @@
     position: inherit;
   }
   /* //컨테이너영역 */
+  
   /* 슬라이드 영역 */
-    ul.viewImgList li {
-      text-align: center;
-      height: 550px;
-      line-height: 550px;
-      background-size: cover;
-      width: 100%;
-    }
+  ul.viewImgList li {
+    height: 550px;
   }
-/* //슬라이드 영역 */
+  /* //슬라이드 영역 */
+
   /* 겔러리 최근게시물 */
   .about_area h2 {
     padding: 55px 0 105px;
@@ -221,4 +218,4 @@
   /* //푸터영역 */
 
   /* //태블릿영역 */
-
+}

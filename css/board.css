@@ -98,7 +98,7 @@ input::placeholder {
 	height: 45px;
 	background: #fef3fa;
 }
-.bbsListTbl td:nth-child(1) {display: table-cell;}
+.bbsListTbl td:nth-child(1) {display: none;}
 .bbsListTbl td:nth-child(3) {display: none;}
 .bbsListTbl td {
 	text-align: center;
@@ -161,24 +161,24 @@ input::placeholder {
 @media all and (min-width: 801px) {
 /* 태블릿 + PC용 */
 .bbsListTbl th:nth-child(1) {
-	display: block;
+	display: table-cell;
 	margin-top: 7px;
 }
 .bbsListTbl th:nth-child(2) {
 	width: 60%;
 }
 .bbsListTbl th:nth-child(3) {
-	display: block;
+	display: table-cell;
 	margin-top: 7px;
 }
 .bbsListTbl th:nth-child(4) {
 	width: 20%;
 }
 .bbsListTbl td:nth-child(1) {
-	display: block;
+	display: table-cell;
 }
 .bbsListTbl td:nth-child(3) {
-	display: block;
+	display: table-cell;
 }
 .btn_baseColor {
 	width: 125px;
@@ -197,7 +197,7 @@ input::placeholder {
 	font-size: 0px;
 }
 .pilsoo_item::before {
-	top:1px;
+	/* top:1px; */
 	content: '*';
 	display: inline-block;
 	position: absolute;
@@ -226,7 +226,7 @@ input::placeholder {
 }
 .app_list li .tit_lbl {
 	float: none;
-	line-height: 30px;
+	line-height: 50px;
 	position: relative;
 	box-sizing: border-box;
 	padding-left: 20px;
@@ -263,10 +263,10 @@ input::placeholder {
 .appForm textarea::placeholder {
 	color: #999;
 }
-textarea:-ms-input-placeholder{
+textarea:-ms-input-placeholder {
 	color: #999;
 }
-input:-ms-input-placeholder{
+input:-ms-input-placeholder {
 	color: #999;
 }
 .btn_baseColor {
@@ -362,11 +362,11 @@ input:-ms-input-placeholder{
 	float: left;
 	width: 100px;
 	padding: 0 0 0 50px;
-	background:url(./img/ico_nearNext.png) no-repeat 12px 50%;
+	background:url(../img/ico_nearNext.png) no-repeat 12px 50%;
 	font-size: 15px;
 }
 .near_list li h4.next {
-	background-image: url(./img/ico_nearPrev.png);
+	background-image: url(../img/ico_nearPrev.png);
 }
 /* //태블릿+PC용 게시판뷰 */
 }

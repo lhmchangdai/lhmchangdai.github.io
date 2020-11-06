@@ -169,9 +169,10 @@ $(document).ready(function() {
 								<label for="man_lbl">남</label>
 								<input type="radio" name="gender" class="css-radio" id="woman_lbl" />
 								<label for="woman_lbl">여</label>
-								<select name="gender" class="gender">
+								<select name="gender" class="gender" required>
+									<option value="" selected>성별을 선택해 주세요</option>
 									<option value="male">남자</option>
-									<option value="female" selected>여자</option>
+									<option value="female">여자</option>
 								</select>
 							</div>
 						</li>
