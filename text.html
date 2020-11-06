@@ -6,7 +6,7 @@
 	<script src="./js/jquery-1.11.3.min.js"></script>
 	<script>
 		$(document).ready(function( ) {
-           $("#addElement").click(function ( ){
+           /*$("#addElement").click(function ( ){
 			$(document.body).css("background", "green");
 			$("<div><p>제이커리</p></div>").appendTo(this);
 			//$(타켓).append("타켓 내부 next 다음에 추가할 내용 ");
@@ -15,14 +15,10 @@
 			$ (this).after("<div><p>외부추가</p></div>");
 			var count = $("div").length;
 			alert("div태그의 개수는"  +  count +  "개입니다.");
+			}); */
+			$("#addElement").bind("click",function() {
 			});
-		});
-		jQuery(function ( ) {
-
-		});
-		$( function( ){
-
-		});
+        });	
 		//context 영역의  내용을 말합니다 .
 		//
 	</script>
