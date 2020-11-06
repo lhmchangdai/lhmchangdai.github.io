@@ -7,8 +7,12 @@
 	<script>
 		$(document).ready(function( ) {
            $("#addElement").click(function ( ){
-			$(document.body).css("background", "blue");
-			$("<div><p>제이쿼리</p></div>").appendTo("#addElement");
+			$(document.body).css("background", "green");
+			$("<div><p>제이커리</p></div>").appendTo(this);
+			//$(타켓).append("타켓 내부 next 다음에 추가할 내용 ");
+			$ (this).append("<div><p>내부추가</p></div>");
+			//$(타켓).append("타켓 외부 next 다음에 추가할 내용 ");
+			$ (this).after("<div><p>외부추가</p></div>");
 			var count = $("div").length;
 			alert("div태그의 개수는"  +  count +  "개입니다.");
 			});
